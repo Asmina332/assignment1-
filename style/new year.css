@@ -192,17 +192,20 @@
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin-top: 50px;
     border-radius: 16px;
-   
+
 }
-.section-3-content2{
+
+.section-3-content2 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'inter';
 }
-.section-3-content{
-    font-family: 'inter';
+
+.section-3-content {
+    font-family: 'Inter';
 }
-.section-3-des{
+
+.section-3-des {
     color: black;
     text-align: center;
     font-family: 'Inter';
@@ -210,8 +213,8 @@
     font-weight: 600;
     padding: 180px 300px;
     /* margin: 40px; */
-    
-  
+
+
 }
 
 .text-primary {
@@ -233,72 +236,167 @@
     background: #F00;
     border: none;
     margin-top: 50px;
-   
-}
-
-/* .section3 {
-    display: grid;
-    grid-template-columns: 3fr 4fr 1fr;
-    max-width: 1320px; */
-/* margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    margin: 50px;
 
 }
 
-.section3 .part1 {
+/* ......section-4...... */
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.section-4-des .part1 {
     color: #F00;
-    text-align: left;
-    font-size: 24px;
+    font-family: 'Inter';
+    font-size: 18px;
     font-weight: 500;
+    padding-top: 100px;
 
 }
 
-.section3-des {
-    text-align: left;
-}
-
-.section3 .part2 {
+.section-4-des .part2 {
     color: #070211;
     font-family: 'Merriweather';
     font-size: 48px;
     font-weight: 900;
-    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
-.section3 .part3 {
+.section-4-des .part3 {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter';
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 200;
-    text-align: left;
-    max-width: 392px;
-
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    max-width: 300px;
     /* 160% */
+}
 
+.section-4-img {
+    display: flex;
+    align-items: center;
+}
 
-/* .section3-des1 .section3-des1-part1 {
+.section-4-des1 .section-4-des1-part1 {
     color: #F00;
     font-family: 'Inter';
     font-size: 48px;
     font-weight: 700;
+    padding-top: 50px;
 }
 
-.section3-des1 .section3-des1-part2 {
+.section-4-des1 .section-4-des1-part2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 276px;
+    padding-bottom: 20px;
+    /* 160% */
+}
+
+.section-4-img .section-4-des1-img {
+    max-width: 140px;
+    padding-bottom: 10px;
+}
+
+/* ......section-4..... */
+.section-5 {
+    text-align: center;
+    margin-top: 100px;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.section-5-text>p {
+    color: #070211;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'inter';
+}
+
+.section-5-text>h1>span {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.section-5-text>h1 {
+    color: rgb(12, 12, 12);
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.section-5 .section-5-p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 400px;
+    /* max-width: 608px; */
+    /* 160% */
+}
+
+.section-6 {
+    margin-top: 100px;
+    max-width: 1320px;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+
+
+}
+
+.section-6-title {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-6-text>h1 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ .section-6-text .section-6-p {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter';
     font-size: 15px;
-    font-style: normal;
-    font-weight: 200;
-    margin-top: 10px;
-    max-width: 263px;
-    /* line-height: 32px; */
-/* 160% */
+    font-weight: 500;
+    max-width: 896px;
+    margin-bottom: 20px;
+}
+.section-6-img img{
+    height: 450px;
+    /* width: 400px; */
+    border-radius: 10px;
+    box-shadow: 4px 3px 3px 0px #00000042;
+    cursor: pointer;
+    margin: 5px;
+    transition: 400ms;
+}
 
-
-/* .section3-des1 .section3-des1-img {
-    margin-top: 20px;
-}  */
+.section-6-img img:hover{
+    filter: grayscale(0);
+    transform: scale(1.03);
+}
