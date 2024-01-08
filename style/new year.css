@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: 'Merriweather'; */
     font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 .banner-section {
@@ -49,9 +49,6 @@
 
 }
 
-.img {
-    padding-top: 233px;
-}
 
 .banner-title {
     color: #FFF;
@@ -64,64 +61,81 @@
     margin-bottom: 32px;
 }
 
-/* .....section...... */
+/* .....section1...... */
 
-.section {
-    align-items: center;
-    text-align: center;
-    padding-top: 96px;
+.section1 {
+    display: flex;
+    justify-content: center;
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+.section1-text{
+    font-family: 'Inter', sans-serif;
 }
 
-.section-title {
+.section1-title {
     color: #F00;
     text-align: center;
     font-family: 'Inter';
     font-size: 88px;
     font-weight: 700;
-    margin-bottom: 48px;
+
 }
 
-.section-content {
-    gap: 10px
-        /* padding-bottom: 199px; */
-}
-
-.section-description {
+.section1-description {
     color: #F00;
     text-align: center;
     font-family: 'Inter';
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
-.section-element {
+.section1-content {
+    margin-top: 36px;
+
+
+}
+
+.section1-element {
     color: #070211;
     text-align: center;
     font-family: 'Inter';
     font-size: 40px;
     font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
-.section-img img {
-    width: 700px;
+.section1-img {
+    width: 802.9px;
+    height: 500px;
     flex-shrink: 0;
-    /* padding-top: 199px; */
+
 }
 
-.welcome {
+/* .......section2..... */
+.section-2 {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     width: 1320px;
     margin: 0px auto;
     border-radius: 16px;
-    padding: 0 126px;
-    background-position: center;
-    background-size: cover;
+
+
+}
+
+.welcome {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 
 
+}
+
+.welcome-text {
+    margin-left: 50px;
 
 }
 
@@ -133,14 +147,17 @@
     font-weight: 800;
     max-width: 642px;
 
+
 }
 
 .welcome-description {
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
-    font-size: 18px;
+    font-family: 'Inter';
+    font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
+    padding-top: 20px;
+    padding-bottom: 20px;
     max-width: 697px;
 
 }
@@ -150,17 +167,20 @@
     text-align: center;
     font-family: 'Inter';
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     border: none;
     background: none;
+    padding-left: 32px;
+
 }
 
-.welcome .welcome-img img {
+.welcome .section-2-img img {
     align-content: center;
-    padding-top: 80px;
+    /* padding-top: 80px;
     padding-bottom: 67px;
-    padding-left: 138px;
+    padding-left: 138px; */
+    margin: 50px;
 }
 
 .place {
