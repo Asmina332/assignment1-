@@ -175,12 +175,22 @@
     border: none;
     background: none;
     padding-left: 32px;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    filter: grayscale(1);
+    transform: scale(0.8);
 
 }
 
 .welcome .section-2-img img {
     align-content: center;
     margin: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 /* .......section-3...... */
@@ -239,7 +249,14 @@
     background: #F00;
     border: none;
     margin-top: 50px;
+    cursor: pointer;
+    transition: 0.3s;
 
+}
+
+.section-3 button:hover {
+    filter: grayscale(1);
+    transform: scale(0.8);
 }
 
 /* ......section-4...... */
@@ -284,6 +301,9 @@
 .section-4-img {
     display: flex;
     align-items: center;
+    border: 10px solid #F00;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .section-4-des1 .section-4-des1-part1 {
@@ -316,7 +336,7 @@
     margin-top: 100px;
     max-width: 1320px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 80px;
 
 }
 
@@ -513,7 +533,8 @@ footer {
     max-width: 350px;
 
 }
-.section-8-contact{
+
+.section-8-contact {
     display: inline-block;
 }
 
@@ -541,9 +562,7 @@ footer {
     justify-content: space-between;
     color: #FFF;
     text-align: 100px;
-     margin-top: 70px;
-     margin-bottom: 60ppx;
-     padding-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 60ppx;
+    padding-bottom: 70px;
 }
-
-
